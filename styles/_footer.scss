@@ -1,0 +1,42 @@
+#footer {
+  .footer__bg {
+    position: relative;
+    z-index: 1;
+    background: #38394f;
+    height: 480px;
+  }
+  .footer__bg__content {
+    text-align: center;
+    margin-top: 10rem;
+    position: relative;
+
+    h1 {
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 33px;
+
+      /* identical to box height */
+      text-align: center;
+      color: white;
+    }
+    button {
+      z-index: 2;
+      width: 173px;
+      height: 51px;
+      border: none;
+      background: #7e53fd;
+      box-shadow: 0px 12px 42px 1px rgba(0, 0, 0, 0.15);
+      border-radius: 5px;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 19px;
+      color: #ffffff;
+      /* identical to box height */
+      text-align: center;
+    }
+  }
+}
