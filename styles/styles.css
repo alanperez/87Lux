@@ -248,24 +248,24 @@ table {
   max-width: 100%;
 }
 
-.container .right-container__hero__triangle .polygon {
+.container .right-container .right-container__hero__triangle .polygon {
   top: -7%;
   z-index: 3;
   left: 8%;
 }
 
-.container .right-container__hero__triangle .eclipse1 {
+.container .right-container .right-container__hero__triangle .eclipse1 {
   top: -3%;
   right: 27%;
 }
 
-.container .right-container__hero__triangle .eclipse2 {
+.container .right-container .right-container__hero__triangle .eclipse2 {
   z-index: 1;
   right: -6%;
   top: 22%;
 }
 
-.container .right-container__hero__triangle img {
+.container .right-container .right-container__hero__triangle img {
   position: absolute;
   max-width: 100%;
 }

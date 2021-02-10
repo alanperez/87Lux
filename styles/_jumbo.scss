@@ -95,78 +95,78 @@
       position: absolute;
       max-width: 100%;
     }
-  }
 
-  .right-container__hero__triangle {
+    .right-container__hero__triangle {
+      // position: relative;
+      // border: 51px solid green;
+      .polygon {
+        top: -7%;
+        z-index: 3;
+        left: 8%;
+      }
+      .eclipse1 {
+        top: -3%;
+        right: 27%;
+      }
+
+      .eclipse2 {
+        z-index: 1;
+        right: -6%;
+        top: 22%;
+      }
+      img {
+        position: absolute;
+        max-width: 100%;
+      }
+    }
+    // min-width: 100%;
+    // min-height: 100%;
     // position: relative;
-    // border: 51px solid green;
-    .polygon {
-      top: -7%;
-      z-index: 3;
-      left: 8%;
-    }
-    .eclipse1 {
-      top: -3%;
-      right: 27%;
-    }
+    // img {
+    //   // position: absolute;
+    //   max-width: 100%;
 
-    .eclipse2 {
-      z-index: 1;
-      right: -6%;
-      top: 22%;
-    }
-    img {
-      position: absolute;
-      max-width: 100%;
-    }
+    //   height: auto;
+    //   // z-index: 1;
+    // }
+    // .play {
+    //   z-index: 6;
+    //   right: 44.5%;
+    //   top: 27%;
+    // }
+    // .circle {
+    //   z-index: 5;
+    //   right: 35%;
+    //   top: 20%;
+    // }
+    // .video {
+    //   top: 8%;
+    //   z-index: 4;
+    //   // width: auto;
+    // }
+    // .polygon {
+    //   z-index: 3;
+
+    //   // top: 1%%;
+    //   // width: auto;
+    // }
+    // .eclipse1 {
+    //   z-index: 1;
+    //   left: 10%;
+    //   // top: -12%;
+    //   // width: auto;
+    // }
+    // .eclipse2 {
+    //   z-index: 0;
+    //   top: 19%;
+    //   right: -5%;
+    //   // width: auto;
+    //   // left: 41%;
+    //   // top: 17%;
+    // }
+    // }
+    // }
   }
-  // min-width: 100%;
-  // min-height: 100%;
-  // position: relative;
-  // img {
-  //   // position: absolute;
-  //   max-width: 100%;
-
-  //   height: auto;
-  //   // z-index: 1;
-  // }
-  // .play {
-  //   z-index: 6;
-  //   right: 44.5%;
-  //   top: 27%;
-  // }
-  // .circle {
-  //   z-index: 5;
-  //   right: 35%;
-  //   top: 20%;
-  // }
-  // .video {
-  //   top: 8%;
-  //   z-index: 4;
-  //   // width: auto;
-  // }
-  // .polygon {
-  //   z-index: 3;
-
-  //   // top: 1%%;
-  //   // width: auto;
-  // }
-  // .eclipse1 {
-  //   z-index: 1;
-  //   left: 10%;
-  //   // top: -12%;
-  //   // width: auto;
-  // }
-  // .eclipse2 {
-  //   z-index: 0;
-  //   top: 19%;
-  //   right: -5%;
-  //   // width: auto;
-  //   // left: 41%;
-  //   // top: 17%;
-  // }
-  // }
-  // }
 }
 #platforms {
   .container {
