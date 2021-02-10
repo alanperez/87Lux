@@ -1,14 +1,14 @@
 #meet-team {
   .container {
     .team-block {
-      height: 730px;
+      // height: 730px;
       margin-top: 5rem;
 
       position: relative !important;
 
       .team_left {
         img {
-          position: absolute;
+          // position: absolute;
         }
 
         .member-3 {
@@ -18,19 +18,25 @@
           top: 35%;
           left: -15%;
         }
-        .member-9 {
-          top: 80%;
-          // left: 350px;
-        }
       }
     }
     .team_middle {
       text-align: center;
       position: relative;
-
+      img {
+        // position: absolute;
+      }
       .member-4 {
         margin-bottom: 3rem;
-        top: 15%;
+        // top: 15%;
+      }
+      .member-9 {
+        left: -12%;
+        top: 32%;
+      }
+      .member-7 {
+        right: -10%;
+        top: 20%;
       }
     }
 
@@ -50,10 +56,10 @@
   }
 
   .team_right {
-    height: 730px;
+    // height: 730px;
 
     img {
-      position: absolute;
+      // position: absolute;
     }
 
     .member-5 {
@@ -63,10 +69,6 @@
     .member-6 {
       top: 17%;
       left: 20%;
-    }
-    .member-7 {
-      top: 50%;
-      left: -90%;
     }
   }
 }

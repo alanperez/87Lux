@@ -34,7 +34,7 @@
 
       <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">87LUX</a>
+          <!-- <a class="navbar-brand" href="#">87LUX</a> -->
           <button
             class="navbar-toggler"
             type="button"
@@ -43,8 +43,13 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
+          <div
+            class="collapse navbar-collapse justify-content-around"
+            id="navbarSupportedContent"
+          >
+            <a class="navbar-brand" href="#">87LUX</a>
+
+            <ul class="navbar-nav">
               <li class="nav-item active">
                 <a href="#" class="nav-link">Themes</a>
               </li>
@@ -66,9 +71,8 @@
 
       <div class="container">
         <div class="row">
-          <div class="col-xs-6 col-md-6">
+          <div class="col-xs-12 col-md-6">
             <div class="left-container">
-              <!-- 1 of 3 -->
               <div class="left-container__info">
                 <div class="left-container__info__text">
                   <h1>We Give Your Business an Edge Over Your Competitors!</h1>
@@ -85,13 +89,14 @@
             </div>
           </div>
 
-          <!-- right side -->
-          <div class="col-xs-6 col-md-6 col-lg-6">
-            <!-- 2 of 2 -->
+          <div class="col-xs-12 col-md-6">
             <div class="right-container">
-              <div class="right-container__hero">
+              <div class="right_container__hero__video">
+                <img src="/images/hero/video.svg" class="video" />
                 <img src="/images/hero/play.svg" alt="" class="play" />
                 <img src="/images/hero/circle.svg" alt="" class="circle" />
+              </div>
+              <div class="right-container__hero__triangle">
                 <img
                   src="/images/hero/polygon.svg"
                   class="polygon"
@@ -107,13 +112,14 @@
                   src="/images/hero/eclipse-2.svg"
                   alt="eclipse"
                 />
-                <img src="/images/hero/video.svg" class="video" />
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- PLATFORM SECTIONS -->
     <section id="platforms">
       <div class="container">
         <div class="platforms-container">
@@ -138,6 +144,7 @@
         </div>
       </div>
     </section>
+
     <!-- LATEST PROJECTS -->
     <section id="latest-projects">
       <!-- <div class="rect-span d-flex flex-row-reverse row">
@@ -209,11 +216,6 @@
                 src="./images/team/eclipse8.svg"
                 alt="member 8"
               />
-              <img
-                class="member-9"
-                src="./images/team/eclipse9.svg"
-                alt="member 9"
-              />
             </div>
             <div class="col-md-6 col-sm-3 team_middle">
               <img
@@ -222,6 +224,16 @@
                 alt="member 4"
               />
               <h4>Meet the Team</h4>
+              <img
+                class="member-9"
+                src="./images/team/eclipse9.svg"
+                alt="member 9"
+              />
+              <img
+                class="member-7"
+                src="./images/team/eclipse7.svg"
+                alt="member 7"
+              />
             </div>
             <div class="col-md-3 col-sm-3 team_right">
               <img
@@ -233,11 +245,6 @@
                 class="member-6"
                 src="./images/team/eclipse6.svg"
                 alt="member 6"
-              />
-              <img
-                class="member-7"
-                src="./images/team/eclipse7.svg"
-                alt="member 7"
               />
             </div>
           </div>
@@ -295,7 +302,7 @@
         </div>
       </div>
     </section>
-
+    <!-- FOOTER -->
     <section id="footer">
       <div class="container-fluid footer__bg">
         <div class="row">
