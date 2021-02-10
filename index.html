@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/styles.css" />
     <link
@@ -17,7 +18,7 @@
     <!-- TOP SECTION -->
     <section id="top-jumbo">
       <!-- Header -->
-      <header class="navbar sticky-top navbar-light bg-white">
+      <!-- <nav class="navbar navbar-expand-md sticky-top navbar-light bg-white">
         <div class="container-fluid">
           <div class="logo">
             <h1>87LUX</h1>
@@ -29,15 +30,45 @@
             <a href="#">Contact Us</a>
           </div>
         </div>
-      </header>
+      </nav> -->
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">87LUX</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a href="#" class="nav-link">Themes</a>
+              </li>
+              <li class="nav-item active">
+                <a href="#" class="nav-link">Apps</a>
+              </li>
+              <li class="nav-item active">
+                <a href="#" class="nav-link">Assets</a>
+              </li>
+              <li class="nav-item active">
+                <a href="#" class="nav-link">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
       <!-- Jumbo Section -->
 
       <div class="container">
         <div class="row">
           <div class="col-xs-6 col-md-6">
-            <!-- 1 of 3 -->
             <div class="left-container">
+              <!-- 1 of 3 -->
               <div class="left-container__info">
                 <div class="left-container__info__text">
                   <h1>We Give Your Business an Edge Over Your Competitors!</h1>
@@ -81,15 +112,18 @@
             </div>
           </div>
         </div>
-
-        <div class="row">
-          <div class="platforms-container">
+      </div>
+    </section>
+    <section id="platforms">
+      <div class="container">
+        <div class="platforms-container">
+          <div class="row">
             <div class="col-xs-2 col-md-2 col-lg-2">
               <div class="platforms-container__left">
                 <h5>Platforms</h5>
               </div>
             </div>
-            <div class="col-sm-10 col-md-10 col-lg-10">
+            <div class="col-xs-10 col-md-10 col-lg-10">
               <div class="platforms-container__right">
                 <img src="./images/platforms/shopify.svg" alt="Shopify" />
                 <img src="./images/platforms/wordpress.svg" alt="Wordpress" />
@@ -106,11 +140,16 @@
     </section>
     <!-- LATEST PROJECTS -->
     <section id="latest-projects">
-      <div class="container">
+      <!-- <div class="rect-span d-flex flex-row-reverse row">
+        <div class="span">Latest Projects</div>
+      </div> -->
+      <div class="container-fluid">
         <div class="row">
           <div class="projects-container">
-            <div class="col">
-              <div class="projects-container-projects__rectangle">
+            <div class="col-12 col-md-12">
+              <div
+                class="projects-container-projects__rectangle d-flex justify-content-end float-right"
+              >
                 <div class="projects-container-projects__rectangle__text">
                   <p>Latest Projects</p>
                 </div>
@@ -237,7 +276,14 @@
               you by installing the theme for you!
             </p>
           </div>
-          <div class="col-6 theme__middle">
+
+          <div class="col gray-border-one">
+            <img src="/images/themes/first.svg" alt="first" />
+          </div>
+          <div class="col gray-border-two">
+            <img src="/images/themes/second.svg" alt="first" />
+          </div>
+          <!-- <div class="col-6 theme__middle">
             <div class="gray-rectangle"></div>
             <div class="theme__middle__content">
               <div class="theme__middle__content__rectangle">
@@ -245,7 +291,7 @@
                 <img src="/images/themes/second.svg" alt="second" />
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -262,5 +308,20 @@
         </div>
       </div>
     </section>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
