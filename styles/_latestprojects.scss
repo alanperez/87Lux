@@ -1,13 +1,14 @@
 #latest-projects {
-  margin-top: 10rem;
-  .container {
+  margin-top: 25rem;
+  .container-fluid {
     .projects-container {
+      width: 100%;
       .projects-container-projects__rectangle {
-        display: flex;
+        // display: flex;
 
         background: linear-gradient(180deg, #25293e 0%, #38394f 100%);
         border-radius: 10px;
-        width: 1544px;
+        // width: 1544px;
         height: 210px;
         justify-content: center;
         align-items: center;
@@ -24,10 +25,15 @@
         }
 
         .projects-container-projects__rectangle__portfolio {
-          width: 95%;
-          display: flex;
+          // width: 95%;
+          // display: flex;
           position: relative;
-          left: -3%;
+          // left: -3%;
+
+          img {
+            max-width: 100%;
+            height: auto;
+          }
         }
       }
     }
@@ -35,10 +41,10 @@
       width: 100%;
       text-align: center;
       margin-top: 5rem;
-      padding: 75px 0;
-      button:nth-child(2) {
-        margin-left: 1rem;
-      }
+      padding: 10rem 0;
+      // button:nth-child(2) {
+      //   margin-left: 1rem;
+      // }
       button {
         width: 173px;
         height: 51px;

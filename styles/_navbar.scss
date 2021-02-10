@@ -1,24 +1,26 @@
 #top-jumbo {
   .navbar {
+    text-align: center;
     box-shadow: 0px 9px 24px rgba(0, 0, 0, 0.15);
     height: 63px;
-    position: fixed;
-    width: 100%;
+    // position: fixed;
+    // width: 100%;
+    // z-index: 999;
+    // text-align: center;
   }
   .container-fluid {
-    max-width: 1325px;
-    display: flex;
-    width: 1325px;
+    // max-width: 1325px;
+    // display: flex;
+    // width: 1325px;
 
-    .logo {
-      h1 {
-        font-size: 24px;
-        font-weight: 700;
-      }
+    .navbar-brand {
+      font-family: "Open Sans";
+      font-size: 24px;
+      font-weight: 700;
     }
-    .menu {
-      a {
-        font-family: Open Sans;
+    .collapse {
+      .nav-item {
+        font-family: "Open Sans";
         font-size: 16px;
         font-style: normal;
         font-weight: 400;

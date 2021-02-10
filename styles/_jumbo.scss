@@ -1,28 +1,29 @@
 .container {
-  max-width: 1325px !important;
+  // max-width: 1325px !important;
   .left-container {
-    margin-top: 5em;
+    // width: 100%;
+    // margin-top: 5em;
 
     .left-container__info {
-      padding: 30px 0;
+      // padding: 30px 0;
 
       .left-container__info__text {
         h1 {
           font-family: "Pathway Gothic One", sans-serif;
-          font-size: 4rem;
+          font-size: 3.5rem;
           font-style: normal;
           font-weight: 400;
           line-height: 77.89px;
-
+          // width: 100%;
           text-align: left;
 
           margin: 1.5rem 0;
         }
         p {
-          height: 30px;
-          left: 390px;
-          top: 371px;
-          width: 90%;
+          // height: 30px;
+          // left: 390px;
+          // top: 371px;
+          // width: 90%;
           font-family: "Open Sans";
           font-style: normal;
           font-weight: bold;
@@ -41,7 +42,7 @@
           background: #ffffff;
           box-shadow: 0px 12px 42px 1px rgba(0, 0, 0, 0.15);
           border-radius: 5px;
-          width: 367px;
+          width: 350px;
           height: 51px;
           font-family: "Open Sans";
           font-size: 14px;
@@ -67,76 +68,129 @@
     }
   }
   .right-container {
-    height: 100%;
-    margin-top: 5em;
-    position: relative;
+    height: 350px;
+    // margin-top: 5em;
+    // position: relative;
 
-    .right-container__hero {
-      min-width: 100%;
-      min-height: 100%;
-      img {
-        position: absolute;
-        width: auto;
-        z-index: 1;
-      }
-      .play {
-        z-index: 6;
-        right: 36%;
-        top: 28%;
-      }
-      .circle {
-        z-index: 5;
-        right: 28%;
-        top: 20%;
-      }
-      .video {
-        left: 10%;
-        z-index: 4;
-        width: auto;
-      }
+    // .right-container__hero {
+    // .right_container__hero__video {
+    // border: 1px solid red;
+    // position: relative;
+    .video {
+      z-index: 4;
+      right: -2%;
+      top: 3%;
+    }
+    .circle {
+      z-index: 4;
+      right: 32%;
+      top: 20%;
+    }
+    .play {
+      right: 41%;
+      z-index: 6;
+      top: 30%;
+    }
+    img {
+      position: absolute;
+      max-width: 100%;
+    }
+
+    .right-container__hero__triangle {
+      // position: relative;
+      // border: 51px solid green;
       .polygon {
+        top: -7%;
         z-index: 3;
-
-        top: -25%;
-        width: auto;
+        left: 8%;
       }
       .eclipse1 {
-        left: 30%;
-        top: -12%;
-        width: auto;
+        top: -3%;
+        right: 27%;
       }
+
       .eclipse2 {
-        z-index: 0;
-        width: auto;
-        left: 70%;
-        top: 200px;
+        z-index: 1;
+        right: -6%;
+        top: 22%;
+      }
+      img {
+        position: absolute;
+        max-width: 100%;
       }
     }
+    // min-width: 100%;
+    // min-height: 100%;
+    // position: relative;
+    // img {
+    //   // position: absolute;
+    //   max-width: 100%;
+
+    //   height: auto;
+    //   // z-index: 1;
+    // }
+    // .play {
+    //   z-index: 6;
+    //   right: 44.5%;
+    //   top: 27%;
+    // }
+    // .circle {
+    //   z-index: 5;
+    //   right: 35%;
+    //   top: 20%;
+    // }
+    // .video {
+    //   top: 8%;
+    //   z-index: 4;
+    //   // width: auto;
+    // }
+    // .polygon {
+    //   z-index: 3;
+
+    //   // top: 1%%;
+    //   // width: auto;
+    // }
+    // .eclipse1 {
+    //   z-index: 1;
+    //   left: 10%;
+    //   // top: -12%;
+    //   // width: auto;
+    // }
+    // .eclipse2 {
+    //   z-index: 0;
+    //   top: 19%;
+    //   right: -5%;
+    //   // width: auto;
+    //   // left: 41%;
+    //   // top: 17%;
+    // }
+    // }
+    // }
   }
+}
+#platforms {
+  .container {
+    .platforms-container {
+      margin: 6rem 0;
+      .platforms-container__left {
+        h5 {
+          color: #7c828d;
+          font-size: 1.1rem;
 
-  .platforms-container {
-    padding: 4rem 0;
-    display: flex;
-    width: 100%;
+          font-family: "Open Sans Condensed";
+          font-style: normal;
+          font-weight: 700;
+          line-height: 1rem;
 
-    .platforms-container__left {
-      h5 {
-        color: #7c828d;
-        font-size: 1.1rem;
-
-        font-family: "Open Sans Condensed";
-        font-style: normal;
-        font-weight: 700;
-        line-height: 1rem;
-
-        text-align: left;
+          text-align: left;
+        }
       }
-    }
-    .platforms-container__right {
-      padding: 1.5rem;
+      .platforms-container__right {
+        padding: 1.5rem;
 
-      justify-content: space-around;
-      display: flex;
+        // justify-content: space-around;
+        // display: flex;
+      }
     }
   }
 }
