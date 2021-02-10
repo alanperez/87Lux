@@ -71,31 +71,23 @@
       margin: 0 auto;
     }
   }
-  // .gray-rectangle {
-  //   .gray-rectangle {
-  //     border-top: 37px solid;
-  //     // width: 700px;
-  //     // height: 37px;
-  //     // text-align: center;
-  //     // border-top: 37px solid #e5e5e5;
-  //     // -webkit-box-shadow: 0px 12px 42px 1px rgba(0, 0, 0, 0.15);
-  //     // box-shadow: 0px 12px 42px 1px rgba(0, 0, 0, 0.15);
-  //     // border-radius: 5px;
-  //     // width: 639px;
-  //   }
-  //   .theme__middle__content {
-  //     // width: 947px;
-  //     // height: 435px;
+  .theme__middle {
+    .gray-rectangle {
+      width: 700px;
+      height: 37px;
+      text-align: center;
+      background: #e5e5e5;
+      -webkit-box-shadow: 0px 12px 42px 1px rgba(0, 0, 0, 0.15);
+      box-shadow: 0px 12px 42px 1px rgba(0, 0, 0, 0.15);
+      border-radius: 5px;
+    }
+    .theme__middle__content {
+      width: 947px;
+      height: 435px;
 
-  //     .theme__middle__content__rectangle img {
-  //       // height: 435px;
-  //       max-width: 100%;
-  //       height: auto;
-  //     }
-  //   }
-  // }
-  .gray-border-one,
-  .gray-border-two {
-    border-top: 36px solid #e5e5e5;
+      .theme__middle__content__rectangle img {
+        height: 435px;
+      }
+    }
   }
 }
