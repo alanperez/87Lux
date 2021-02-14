@@ -71,31 +71,63 @@
       margin: 0 auto;
     }
   }
-  // .gray-rectangle {
-  //   .gray-rectangle {
-  //     border-top: 37px solid;
-  //     // width: 700px;
-  //     // height: 37px;
-  //     // text-align: center;
-  //     // border-top: 37px solid #e5e5e5;
-  //     // -webkit-box-shadow: 0px 12px 42px 1px rgba(0, 0, 0, 0.15);
-  //     // box-shadow: 0px 12px 42px 1px rgba(0, 0, 0, 0.15);
-  //     // border-radius: 5px;
-  //     // width: 639px;
-  //   }
-  //   .theme__middle__content {
-  //     // width: 947px;
-  //     // height: 435px;
-
-  //     .theme__middle__content__rectangle img {
-  //       // height: 435px;
-  //       max-width: 100%;
-  //       height: auto;
-  //     }
-  //   }
-  // }
   .gray-border-one,
   .gray-border-two {
     border-top: 36px solid #e5e5e5;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .theme__left__steps {
+    margin-left: 0 !important;
+  }
+  .gray-border-one {
+    display: none;
+  }
+  .gray-rectangle {
+    // border-top: 37px solid #e5e5e5;
+    // border: 2px solid red;
+  }
+  .gray-border-two {
+    // display: flex;
+    // justify-content: center;
+    // flex-direction: column;
+    // flex-flow: nowrap;
+    height: 100%;
+    width: 100%;
+    transform: scale(0.7);
+    // border: none !important;
+    img {
+      // height: 100%;
+      // width: 100%;
+      // object-fit: cover;
+      // flex: 1;
+      // width: 345px;
+    }
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .theme__left__steps {
+    margin-left: 0 !important;
+  }
+  .gray-border-one {
+    display: none;
+  }
+  .gray-rectangle {
+    background-color: #e5e5e5;
+  }
+  .gray-border-two {
+    // border: none !important;
+    // display: flex;
+    // justify-content: center;
+    // flex-direction: column;
+    // flex-flow: nowrap;
+    // transform: scale(0.5);
+    height: 100%;
+    width: 100%;
+    img {
+      object-fit: cover;
+    }
   }
 }

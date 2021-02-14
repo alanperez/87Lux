@@ -143,13 +143,13 @@ table {
   height: 63px;
 }
 
-#top-jumbo .container-fluid .navbar-brand {
+#top-jumbo .container .navbar-brand {
   font-family: "Open Sans";
   font-size: 24px;
   font-weight: 700;
 }
 
-#top-jumbo .container-fluid .collapse .nav-item {
+#top-jumbo .container .collapse .nav-item {
   font-family: "Open Sans";
   font-size: 16px;
   font-style: normal;
@@ -161,11 +161,15 @@ table {
   color: black;
 }
 
+.container .left-container {
+  margin-top: 7.5rem;
+}
+
 .container .left-container .left-container__info .left-container__info__text h1 {
-  font-family: "Pathway Gothic One", sans-serif;
-  font-size: 3.5rem;
-  font-style: normal;
+  font-family: league-gothic, sans-serif;
   font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
   line-height: 77.89px;
   text-align: left;
   margin: 1.5rem 0;
@@ -223,51 +227,42 @@ table {
 
 .container .right-container {
   height: 350px;
+  position: relative;
 }
 
 .container .right-container .video {
   z-index: 4;
-  right: -2%;
-  top: 3%;
+  top: 29%;
 }
 
 .container .right-container .circle {
-  z-index: 4;
-  right: 32%;
-  top: 20%;
+  z-index: 5;
+  top: 59%;
 }
 
 .container .right-container .play {
-  right: 41%;
+  top: 71%;
   z-index: 6;
-  top: 30%;
+}
+
+.container .right-container .polygon {
+  top: -20%;
+  z-index: 3;
+}
+
+.container .right-container .eclipse1 {
+  right: 38%;
+  top: 4%;
+}
+
+.container .right-container .eclipse2 {
+  z-index: 1;
+  left: 56%;
+  top: 66%;
 }
 
 .container .right-container img {
   position: absolute;
-  max-width: 100%;
-}
-
-.container .right-container .right-container__hero__triangle .polygon {
-  top: -7%;
-  z-index: 3;
-  left: 8%;
-}
-
-.container .right-container .right-container__hero__triangle .eclipse1 {
-  top: -3%;
-  right: 27%;
-}
-
-.container .right-container .right-container__hero__triangle .eclipse2 {
-  z-index: 1;
-  right: -6%;
-  top: 22%;
-}
-
-.container .right-container .right-container__hero__triangle img {
-  position: absolute;
-  max-width: 100%;
 }
 
 #platforms .container .platforms-container {
@@ -276,8 +271,8 @@ table {
 
 #platforms .container .platforms-container .platforms-container__left h5 {
   color: #7c828d;
-  font-size: 1.1rem;
-  font-family: "Open Sans Condensed";
+  font-size: 14px;
+  font-family: Open Sans, condensed;
   font-style: normal;
   font-weight: 700;
   line-height: 1rem;
@@ -286,6 +281,20 @@ table {
 
 #platforms .container .platforms-container .platforms-container__right {
   padding: 1.5rem;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .right-container {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .right-container {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
 }
 
 #latest-projects {
@@ -352,14 +361,54 @@ table {
   color: #7e53fd;
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .projects-container-projects__rectangle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-flow: nowrap;
+        flex-flow: nowrap;
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .projects-container-projects__rectangle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-flow: nowrap;
+        flex-flow: nowrap;
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+}
+
 #meet-team .container .team-block {
+  height: 730px;
   margin-top: 5rem;
   position: relative !important;
 }
 
+#meet-team .container .team-block img {
+  position: absolute;
+}
+
+#meet-team .container .team-block .team_left .member-3 {
+  left: 125px;
+  top: -350px;
+}
+
 #meet-team .container .team-block .team_left .member-8 {
-  top: 35%;
-  left: -15%;
+  right: 57px;
+  bottom: -250px;
 }
 
 #meet-team .container .team_middle {
@@ -369,16 +418,17 @@ table {
 
 #meet-team .container .team_middle .member-4 {
   margin-bottom: 3rem;
+  right: 180px;
+  top: -250px;
 }
 
 #meet-team .container .team_middle .member-9 {
-  left: -12%;
-  top: 32%;
+  right: 420px;
+  top: 350px;
 }
 
 #meet-team .container .team_middle .member-7 {
-  right: -10%;
-  top: 20%;
+  right: -100px;
 }
 
 #meet-team .container .team_middle h4 {
@@ -393,13 +443,27 @@ table {
 }
 
 #meet-team .team_right .member-5 {
-  top: -5%;
-  right: 100%;
+  top: -400px;
+  right: 200px;
 }
 
 #meet-team .team_right .member-6 {
-  top: 17%;
-  left: 20%;
+  bottom: 5px;
+  left: 94px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .team-block {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .team-block {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
 }
 
 #custom-solutions {
@@ -480,6 +544,41 @@ table {
 #custom-solutions .gray-border-one,
 #custom-solutions .gray-border-two {
   border-top: 36px solid #e5e5e5;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .theme__left__steps {
+    margin-left: 0 !important;
+  }
+  .gray-border-one {
+    display: none;
+  }
+  .gray-border-two {
+    height: 100%;
+    width: 100%;
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .theme__left__steps {
+    margin-left: 0 !important;
+  }
+  .gray-border-one {
+    display: none;
+  }
+  .gray-rectangle {
+    background-color: #e5e5e5;
+  }
+  .gray-border-two {
+    height: 100%;
+    width: 100%;
+  }
+  .gray-border-two img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
 }
 
 #footer .footer__bg {

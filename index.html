@@ -12,29 +12,18 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://use.typekit.net/nes1dhg.css" />
     <title>87Lux</title>
   </head>
   <body>
     <!-- TOP SECTION -->
     <section id="top-jumbo">
       <!-- Header -->
-      <!-- <nav class="navbar navbar-expand-md sticky-top navbar-light bg-white">
-        <div class="container-fluid">
-          <div class="logo">
-            <h1>87LUX</h1>
-          </div>
-          <div class="menu">
-            <a href="#">Themes</a>
-            <a href="#">Apps</a>
-            <a href="#">Assets</a>
-            <a href="#">Contact Us</a>
-          </div>
-        </div>
-      </nav> -->
 
       <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
-        <div class="container-fluid">
+        <div class="container">
           <!-- <a class="navbar-brand" href="#">87LUX</a> -->
+          <a class="navbar-brand" href="#">87LUX</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -44,11 +33,9 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div
-            class="collapse navbar-collapse justify-content-around"
+            class="collapse navbar-collapse d-flex justify-content-end"
             id="navbarSupportedContent"
           >
-            <a class="navbar-brand" href="#">87LUX</a>
-
             <ul class="navbar-nav">
               <li class="nav-item active">
                 <a href="#" class="nav-link">Themes</a>
@@ -91,12 +78,12 @@
 
           <div class="col-xs-12 col-md-6">
             <div class="right-container">
-              <div class="right_container__hero__video">
+              <div
+                class="right_container__hero__video d-flex justify-content-center"
+              >
                 <img src="/images/hero/video.svg" class="video" />
                 <img src="/images/hero/play.svg" alt="" class="play" />
                 <img src="/images/hero/circle.svg" alt="" class="circle" />
-              </div>
-              <div class="right-container__hero__triangle">
                 <img
                   src="/images/hero/polygon.svg"
                   class="polygon"
@@ -113,6 +100,23 @@
                   alt="eclipse"
                 />
               </div>
+              <!-- <div class="right-container__hero__triangle">
+                <img
+                  src="/images/hero/polygon.svg"
+                  class="polygon"
+                  alt="polygon"
+                />
+                <img
+                  class="eclipse1"
+                  src="/images/hero/eclipse-1.svg"
+                  alt="eclipse"
+                />
+                <img
+                  class="eclipse2"
+                  src="/images/hero/eclipse-2.svg"
+                  alt="eclipse"
+                />
+              </div> -->
             </div>
           </div>
         </div>
@@ -204,7 +208,7 @@
     <section id="meet-team">
       <div class="container">
         <div class="team-block">
-          <div class="row">
+          <div class="row h-100 justify-content-center align-items-center">
             <div class="col-md-3 col-sm-3 team_left">
               <img
                 class="member-3"
@@ -217,7 +221,7 @@
                 alt="member 8"
               />
             </div>
-            <div class="col-md-6 col-sm-3 team_middle">
+            <div class="col-md-6 col-sm-6 team_middle">
               <img
                 class="member-4"
                 src="./images/team/eclipse4.svg"
@@ -288,6 +292,7 @@
             <img src="/images/themes/first.svg" alt="first" />
           </div>
           <div class="col gray-border-two">
+            <div class="gray-rectangle"></div>
             <img src="/images/themes/second.svg" alt="first" />
           </div>
           <!-- <div class="col-6 theme__middle">

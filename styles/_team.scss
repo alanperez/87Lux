@@ -1,22 +1,22 @@
 #meet-team {
   .container {
     .team-block {
-      // height: 730px;
+      height: 730px;
       margin-top: 5rem;
 
       position: relative !important;
 
+      img {
+        position: absolute;
+      }
       .team_left {
-        img {
-          // position: absolute;
-        }
-
         .member-3 {
-          // left: 80%;
+          left: 125px;
+          top: -350px;
         }
         .member-8 {
-          top: 35%;
-          left: -15%;
+          right: 57px;
+          bottom: -250px;
         }
       }
     }
@@ -28,15 +28,15 @@
       }
       .member-4 {
         margin-bottom: 3rem;
-        // top: 15%;
+        right: 180px;
+        top: -250px;
       }
       .member-9 {
-        left: -12%;
-        top: 32%;
+        right: 420px;
+        top: 350px;
       }
       .member-7 {
-        right: -10%;
-        top: 20%;
+        right: -100px;
       }
     }
 
@@ -63,12 +63,24 @@
     }
 
     .member-5 {
-      top: -5%;
-      right: 100%;
+      top: -400px;
+      right: 200px;
     }
     .member-6 {
-      top: 17%;
-      left: 20%;
+      bottom: 5px;
+      left: 94px;
     }
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .team-block {
+    transform: scale(0.5);
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .team-block {
+    transform: scale(0.5);
   }
 }
